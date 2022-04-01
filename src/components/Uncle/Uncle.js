@@ -1,10 +1,11 @@
 import React from 'react';
 import './Uncle.css';
 
-const Uncle = () => {
+const Uncle = ({ house }) => {
     return (
         <div>
-            <h5>This is Uncle</h5>
+            <h1> Uncle</h1>
+            <p>House : {house}</p>
         </div>
     );
 };

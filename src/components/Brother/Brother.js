@@ -1,10 +1,11 @@
 import React from 'react';
 import './Brother.css';
 
-const Brother = () => {
+const Brother = ({ house }) => {
     return (
         <div>
-            <h1>This is Brother</h1>
+            <h5> Brother</h5>
+            <p><small>House No: {house}</small></p>
         </div>
     );
 };
