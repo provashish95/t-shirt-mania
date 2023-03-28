@@ -32,6 +32,7 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
             </div>}
             {cart.length === 2 || <p>This is OR operator OK </p>}
             {command}
+
             {cart.length > 4 ? <button>Remove item</button> : <h4 style={{ color: 'red' }}>Are You sure adding more ? </h4>}
         </div>
     );

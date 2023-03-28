@@ -20,6 +20,8 @@ export const RingContext = React.createContext('ring');
 const GrandPa = () => {
     const [house, setHouse] = useState(1);
 
+
+
     const ornament = "Golden ring ";
 
     const handleBuyAHouse = () => {
